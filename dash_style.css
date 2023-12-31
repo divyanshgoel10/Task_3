@@ -1,0 +1,67 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.company-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.metric-box {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    flex: 1 0 calc(33.33% - 20px);
+}
+
+.metric-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.metric-value {
+    margin-top: 10px;
+    font-size: 24px;
+    color: green;
+}
+.outstanding-amount {
+    color: red;
+}
+
+.white-text {
+    color: black;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+}
+
+canvas {
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    justify-content: space-evenly;
+}
