@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Login Dashboard</title>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://i.ytimg.com/vi/l7uGDoANtEk/maxresdefault.jpg" alt="Logo" class="logo_image">
+        <input type="text" class="username-input" placeholder="Enter your email">
+        <input type="password" class="password-input" placeholder="Enter your password">
+        <button class="login-btn">Login</button>
+        <p><a href="#" class="forgot-password">Forgot your password?</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
